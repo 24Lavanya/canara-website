@@ -1,15 +1,38 @@
 
 const showSection = (sectionId) => {
     document.querySelectorAll('.hidden-section').forEach(section => {
-        section.style.display = "none";   
-    })
+        section.style.display = "none";
+    });
     document.getElementById(sectionId + '-section').style.display = 'block';
 }
-
 
 const hideSection = (sectionId) => {
     document.getElementById(sectionId + '-section').style.display = 'none';
 }
+
+const showSectionInSection = (sectionId) => {
+    document.querySelectorAll('.hidden-section-section').forEach(section => {
+        section.style.display = "none";
+    });
+    document.getElementById(sectionId + '-section-section').style.display = 'block';
+}
+
+const hideSectionInSection = (sectionId) => {
+    document.getElementById(sectionId + '-section-section').style.display = 'none';
+}
+
+document.querySelector('.hidden-section').addEventListener('mouseleave', () => {
+    document.querySelectorAll('.hidden-section, .hidden-section-section').forEach(section => {
+        section.style.display = "none";
+    });
+});
+
+
+document.querySelector('.hidden-section').addEventListener('mouseleave', () => {
+    document.querySelectorAll('.hidden-section').forEach(section => {
+        section.style.display = "none";
+    });
+});
 
 // MODAL WINDOW
 

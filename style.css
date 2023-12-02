@@ -100,7 +100,7 @@ body {
     color: white;
     position: relative;
 }
-.navbar a::after{
+/* .navbar a::after{
     content: "";
     position: absolute;
     background-color: white;
@@ -114,7 +114,7 @@ body {
   
   .navbar a:hover::after {
     width: 100%;
-}
+} */
 
 @media(max-width:900px){
     .navbar ul{
@@ -123,6 +123,9 @@ body {
     .hidden-section{
         display: none;
     }
+    .hidden-section-section{
+      display: none;
+  }
 }
 
 .hidden-section{
@@ -136,6 +139,21 @@ body {
     left: 10em;
     right: 10em;
   }
+  
+  .hidden-section li{
+    margin: 14px 10px;
+  }
+  .hidden-section-section{
+    background-color: #333;
+    color: #fff;
+    height: 50vh;
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 20em;
+    right: 0em;
+  }
+
 
   /* MODAL-WINDOW */
 

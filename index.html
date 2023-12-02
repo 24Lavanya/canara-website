@@ -34,13 +34,13 @@
         <div class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#" id="facility" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">Facility</a></li>
-                <li><a href="#" id="department" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">Departments</a></li>
-                <li><a href="#" id="course" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">Course</a></li>
-                <li><a href="#" id="testimonials" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">Testimonials</a></li>
-                <li><a href="#" id="research" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">Research</a></li>
-                <li><a href="#" id="about" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">About</a></li>
-                <li><a href="#" id="contact" onmouseover="showSection(this.id)" onmouseout="hideSection(this.id)">Contact</a></li>
+                <li><a href="#" id="facility" onmouseover="showSection(this.id)" >Facility</a></li>
+                <li><a href="#" id="department" onmouseover="showSection(this.id)" >Departments</a></li>
+                <li><a href="#" id="course" onmouseover="showSection(this.id)" >Course</a></li>
+                <li><a href="#" id="testimonials" onmouseover="showSection(this.id)">Testimonials</a></li>
+                <li><a href="#" id="research" onmouseover="showSection(this.id)">Research</a></li>
+                <li><a href="#" id="about" onmouseover="showSection(this.id)">About</a></li>
+                <li><a href="#" id="contact" onmouseover="showSection(this.id)">Contact</a></li>
                 
             </ul>
         </div>  
@@ -48,8 +48,26 @@
         <!-- hover-sections -->
 
         <div id="facility-section" class="hidden-section">
-            facility
+            <li  id="library" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Central Library and information center</a></li>
+            <li  id="swo" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Student welfare office</a></li>
+            <li  id="internet" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Internet facility</a></li>
+            <li  id="self" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Self-learning</a></li>
+            <li  id="entre" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Entreprenneurship cell</a></li>
+            <li  id="phyedu" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Physical education</a></li>
+            <li  id="collinfo" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">College infomative system</a></li>
+            <li  id="trans" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Transportation facility</a></li>
+            <li  id="hostel" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Hostel facility</a></li>
+            <div id="library-section-section" class="hidden-section-section">lib</div>
+            <div id="swo-section-section" class="hidden-section-section">swo</div>
+            <div id="internet-section-section" class="hidden-section-section">internet</div>
+            <div id="self-section-section" class="hidden-section-section">self</div>
+            <div id="entre-section-section" class="hidden-section-section">entre</div>
+            <div id="phyedu-section-section" class="hidden-section-section">phyedu</div>
+            <div id="collinfo-section-section" class="hidden-section-section">collinfo</div>
+            <div id="trans-section-section" class="hidden-section-section">trans</div>
+            <div id="hostel-section-section" class="hidden-section-section">hostel</div>
         </div> 
+
         <div id="department-section" class="hidden-section">
             department
         </div> 
