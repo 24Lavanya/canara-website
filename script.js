@@ -46,10 +46,10 @@ document.querySelectorAll('.hidden-section').forEach(section => {
     });
 });
 
-document.querySelectorAll('.nav-ul li a').forEach(function (element) {
-    element.addEventListener('click', function (event) {
+document.querySelectorAll('.nav-ul').forEach((element)=> {
+    element.addEventListener('click', (event)=> {
       if (isMobileView()) {
-        event.preventDefault(); // Prevent following the link on mobile
+        event.preventDefault(); 
         showSection(this.id);
       }
     });
