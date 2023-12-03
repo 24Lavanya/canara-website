@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canara</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-lTf5aEf3e6Dq1RRiH56cWh6t3m6pjqcvdl+7X+Yg/DTVM2Q6NQqEc3Jd0xg0LhLCT" crossorigin="anonymous">
+
 </head>
+
 <body>
     <div class="topmost">
         <div class="logo">
@@ -17,108 +21,400 @@
             </div>
         </div>
         <marquee>
-        <div class="marquee">
-            <p>Canara Engineering College accredited by NAAC with A grade - CGPA 3.24 for 5 years from 24-06-2023.Canara Engineering College is happy to announce that the National Board of Accreditation (NBA), New Delhi has extended accreditation for the following programs till 30.06.2025 - Electronics and Communication Engineering, Computer Science & Engineering and Information Science & Engineering.
-            </p>
-            <img src="images/email.png">
-            <p>canarait&#64gmail.com</p>
-            <img src="images/call.png">
-            <p>8792727001/8904737001</p>
-        </div>
-    </marquee>
+            <div class="marquee">
+                <p>Canara Engineering College accredited by NAAC with A grade - CGPA 3.24 for 5 years from
+                    24-06-2023.Canara Engineering College is happy to announce that the National Board of Accreditation
+                    (NBA), New Delhi has extended accreditation for the following programs till 30.06.2025 - Electronics
+                    and Communication Engineering, Computer Science & Engineering and Information Science & Engineering.
+                </p>
+                <img src="images/email.png">
+                <p>canarait&#64gmail.com</p>
+                <img src="images/call.png">
+                <p>8792727001/8904737001</p>
+            </div>
+        </marquee>
     </div>
     <hr>
-
+    
     <!-- navbar -->
+    <div class="navbar">
+    <nav class="nav">
+        <input type="checkbox" id="click">
+        <label for="click" class="hamburger"><button id="ham"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button></label>
+
+        <ul class="nav-ul">
+            <label for="click" class="cross-bar">
+            <button id="cross"><svg xmlns="http://www.w3.org/2000/svg"  height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#fff"  d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></button></label>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="facility" onmouseover="showSection(this.id)">Facility</a></li>
+            <li><a href="#" id="department" onmouseover="showSection(this.id)">Departments</a></li>
+            <li><a href="#" id="course" onmouseover="showSection(this.id)">Course</a></li>
+            <li><a href="#" id="testimonials" onmouseover="showSection(this.id)">Testimonials</a></li>
+            <li><a href="#" id="research" onmouseover="showSection(this.id)">Research</a></li>
+            <li><a href="#" id="about" onmouseover="showSection(this.id)">About</a></li>
+            <li><a href="#" id="contact" onmouseover="showSection(this.id)">Contact</a></li>
+
+        </ul>
+    </nav>
+</div>
+    <!-- hover-sections -->
     <div class="landing-page">
-        <div class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#" id="facility" onmouseover="showSection(this.id)" >Facility</a></li>
-                <li><a href="#" id="department" onmouseover="showSection(this.id)" >Departments</a></li>
-                <li><a href="#" id="course" onmouseover="showSection(this.id)" >Course</a></li>
-                <li><a href="#" id="testimonials" onmouseover="showSection(this.id)">Testimonials</a></li>
-                <li><a href="#" id="research" onmouseover="showSection(this.id)">Research</a></li>
-                <li><a href="#" id="about" onmouseover="showSection(this.id)">About</a></li>
-                <li><a href="#" id="contact" onmouseover="showSection(this.id)">Contact</a></li>
+        <h1 id="heading">JOIN THE LEAGUE OF NEXT-GEN ENGINEERS</h1>
+
+       
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="https://www.facebook.com/CanaraEngineeringCollege" target="_blank"><i
+                        class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="https://twitter.com/cecmangalore" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+            <li><a href="https://www.instagram.com/cecmangalore/" target="_blank"><i
+                        class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a href="https://www.linkedin.com/school/canara-engineering-college-official/?originalSubdomain=in" target="_blank"><i
+                        class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+            <li><a href="https://www.youtube.com/channel/UC2DmUU0b59V5CKAJKfA0qsw" target="_blank"><i
+                        class="fab fa-youtube"></i><span>Youtube</span></a></li>
+        </ul>
+    </div>
+    
+    <div id="facility-section" class="hidden-section">
+        <li id="library" onmouseover="showSectionInSection(this.id)"><a href="#">Central Library and information
+                center</a></li>
+        <li id="swo" onmouseover="showSectionInSection(this.id)"><a href="#">Student welfare office</a></li>
+        <li id="internet" onmouseover="showSectionInSection(this.id)"><a href="#">Internet facility</a></li>
+        <li id="self" onmouseover="showSectionInSection(this.id)"><a href="#">Self-learning</a></li>
+        <li id="entre" onmouseover="showSectionInSection(this.id)"><a href="#">Entreprenneurship cell</a></li>
+        <li id="phyedu" onmouseover="showSectionInSection(this.id)"><a href="#">Physical education</a></li>
+        <li id="collinfo" onmouseover="showSectionInSection(this.id)"><a href="#">College infomative system</a></li>
+        <li id="trans" onmouseover="showSectionInSection(this.id)"><a href="#">Transportation facility</a></li>
+        <li id="hostel" onmouseover="showSectionInSection(this.id)"><a href="#">Hostel facility</a></li>
+
+        <div id="library-section-section" class="hidden-section-section">
+           <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center>
+            <p>
+                The central Library of
+                CEC is located in the heart of the institution and it is easily accessible to its clientele. The library
+                has got independent building with carpet area of 1305.68.mtrs spread in 2 Floors it can accommodated 300
+                users at a time. </p>
+
+        </div>
+        <div id="swo-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center>
+            <p>The Department of Student Welfare was setup in Canara Engineering College during the academic year
+            2010-2011.
+            Ably lead by Dr. Priya V. Frank, the department is committed to student wellbeing and betterment. It strives
+            for the all round development of the students in all spheres of life through counseling & various other
+            student-oriented programs. The Department aims to facilitate a congenial atmosphere for students overall
+            advancement.</p>
+        </div>
+        <div id="internet-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center>
+            <p>Name of the Internet Provider : BSNL
+
+            Bandwidth Details : 100 Mbps 1:2 Leased Line from 01/03/2018 to 30/11/2018
+
+            : 300 Mbps 1:1 Leased Line from 19/10/2022
+
+            : Optical fiber cable Link
+
+            Wi-Fi : Availability
+
+            No of Hotspots: 6 Ruckus outdoor Assess Point.</p>
+        </div>
+        <div id="self-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center>
+            <p>With the goal of empowering the modern education in line with the National Education Policy and upgrading
+            lifelong skills, the Institution prioritizes various self-learning initiatives within the overall education
+            and continuing training.
+
+            Scope:
+            This policy applies to everyone, students and faculty of this institution.</p>
+        </div>
+        <div id="entre-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center>
+            <p>On 29th January, two students, Sumanth Shenoy and Aditya Pai, both members of IEEECan won the first place in
+            Social Innovation stream in DEFI 2017 - a Startup Event at TAPMI, Manipal, under the aegis of Manipal
+            University Technology and Business Incubator (MUTBI), aimed at giving students an opportunity to pitch their
+            venture idea and empower them through workshops and mentor-ship via association with NASSCOM and MUTBI. The
+            winners are shortlisted for a chance to get an incubation opportunity by MUTBI, one of most prestigious
+            incubators in the country.</p>
+        </div>
+        <div id="phyedu-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>Physical education-is an integral part of
+            educational program designed to promote the optimum development of an individual. It makes one emotionally,
+            mentally and physically strong. The primary aims of physical education are varied, based on the needs of
+            time and place. Sports is commonly defined as an organized, competitive and skillful physical activity
+            requiring commitment and fair play.</p></div>
+        <div id="collinfo-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>collinfo</p></div>
+        <div id="trans-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>Transportation</p></div>
+        <div id="hostel-section-section" class="hidden-section-section">
+            <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>hostel</p></div>
+    </div>
+
+  
+
+    <div id="department-section" class="hidden-section">
+        <li id="cse" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="csd" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="ece" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="csbs" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="ise" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="aiml" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="humanities" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Computer Science and Engineering</a></li>
+        <li id="mech" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Placement</a></li>
+        <li id="training" onmouseover="showSectionInSection(this.id)"><a
+                href="#">Training</a></li>
                 
-            </ul>
-        </div>  
+        <div id="cse-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>cse</p></div>
+        <div id="csd-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>csd</p></div>
+        <div id="ece-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>ece</p></div>
+        <div id="csbs-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>csbs</p></div>
+        <div id="ise-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>ise</p></div>
+        <div id="aiml-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>aiml</p></div>
+        <div id="humanities-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>humanities</p></div>
+        <div id="mech-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>mech</p></div>
+        <div id="training-section-section" class="hidden-section-section"> <center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>training</p></div>
+    </div>
 
-        <!-- hover-sections -->
 
-        <div id="facility-section" class="hidden-section">
-            <li  id="library" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Central Library and information center</a></li>
-            <li  id="swo" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Student welfare office</a></li>
-            <li  id="internet" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Internet facility</a></li>
-            <li  id="self" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Self-learning</a></li>
-            <li  id="entre" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Entreprenneurship cell</a></li>
-            <li  id="phyedu" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Physical education</a></li>
-            <li  id="collinfo" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">College infomative system</a></li>
-            <li  id="trans" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Transportation facility</a></li>
-            <li  id="hostel" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a href="#">Hostel facility</a></li>
-            <div id="library-section-section" class="hidden-section-section">lib</div>
-            <div id="swo-section-section" class="hidden-section-section">swo</div>
-            <div id="internet-section-section" class="hidden-section-section">internet</div>
-            <div id="self-section-section" class="hidden-section-section">self</div>
-            <div id="entre-section-section" class="hidden-section-section">entre</div>
-            <div id="phyedu-section-section" class="hidden-section-section">phyedu</div>
-            <div id="collinfo-section-section" class="hidden-section-section">collinfo</div>
-            <div id="trans-section-section" class="hidden-section-section">trans</div>
-            <div id="hostel-section-section" class="hidden-section-section">hostel</div>
-        </div> 
+    <div id="course-section" class="hidden-section">
+        <li id="campuslife" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">CAMPUS</a></li>
+        <li id="professional" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">professional</a></li>
+        <li id="deptas" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">Department</a></li>
+        <li id="sportngame" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">SportsnGAmes</a></li>
+        <li id="marksandattd" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">MARKS AND ATTD</a></li>
+        <li id="studentinfo" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">STDNT INFO</a></li>
+        <li id="learnresource" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">LEARN RESOURCE</a></li>
+        <li id="scholarship" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">scholarship</a></li>
+        <li id="parents" onmouseover="showSectionInSection(this.id)" onmouseout="hideSectionInSection(this.id)"><a
+                href="#">parents</a></li>
 
-        <div id="department-section" class="hidden-section">
-            department
-        </div> 
-        <div id="course-section" class="hidden-section">
-            course
-        </div> 
-        <div id="testimonials-section" class="hidden-section">
-            testimonials
-        </div> 
-        <div id="research-section" class="hidden-section">
-            research
-        </div> 
-        <div id="about-section" class="hidden-section">
-            about
-        </div> 
-        <div id="contact-section" class="hidden-section">
-            contact
-        </div> 
+         <!-- section-section        -->
+        <div id="campuslife-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>The committee is headed by one of the
+            faculty coordinators of the committees – appointed by the Principal. The committee is guided by the inputs
+            from the Principal and various department heads including the alumni and placement heads. The constitution
+            is under the guidance of the faculty coordinators (from every department) in consortium with selected
+            student coordinators who meet once every semester and the faculty coordinators meet at least once every
+            month and schedule and plan activities in advance every year and semester.</p></div>
+        <div id="deptas-section-section" class="hidden-section-section"><center> <div class="section-images">
+            <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+            <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+        </div></center><p>Department</p></div>
+        <div id="sportngame-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>The Departmental Associations Committee is
+            the driving force behind every department association to enhance the capability of its students,
+            academically, socially, culturally and personally. Every engineering department of the college has its own
+            department association with a faculty member as coordinator. Various department associations are:</p></div>
+        <div id="marksandattd-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>marksandattd</p></div>
+            <div id="studentinfo-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>student-oriented information</p></div>
+            <div id="professional-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>professional</p></div>
+        <div id="studentinfo-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>student-oriented information</p></div>
+        <div id="learnresource-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>Research RESOURCE</p></div>
+        <div id="scholarship-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>scholarship</p></div>
+        <div id="parents-section-section" class="hidden-section-section"><center> <div class="section-images">
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" >
+                <img src="https://www.canaraengineering.in/departments/library/library.jpg" id="section-img-none">
+            </div></center><p>parents</p></div>
+    </div>
+    <div id="testimonials-section" class="hidden-section">
+        testimonials
+    </div>
+    <div id="research-section" class="hidden-section">
+        research
+    </div>
+    <div id="about-section" class="hidden-section">
+        about
+    </div>
+    <div id="contact-section" class="hidden-section">
+        contact
+    </div>
+</div>
+
+<!-- end of landing page -->
         <button class="show-modal">ADMISSION ENQUIRY</button>
-        
-       <center> <div class="modal hidden">
-            <button class="close-modal">&times;</button>
-            <div class="ad-div">
-                <div class="admission-img">
-                    <img src="https://plus.unsplash.com/premium_photo-1682974403236-5c3f97d854d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Admission Image">
-                </div>
-                <div class="adcontent">
-                    <h1>ADMISSION ENQUIRY</h1>
-                    <form action="" class="admission-form">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Name" />
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Email" />
+        <center>
+            <div class="modal hidden">
+                <button class="close-modal">&times;</button>
+                <div class="ad-div">
+                    <div class="admission-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1682974403236-5c3f97d854d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Admission Image">
+                    </div>
+                    <div class="adcontent">
+                        <h1>ADMISSION ENQUIRY</h1>
+                        <form action="" class="admission-form">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name" />
 
-                        <label for="phone">Phone Number</label>
-                        <input type="text" id="phone" name="phone" placeholder="Phone Number" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" />
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" />
 
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="8" placeholder="Message"></textarea>
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" name="phone" placeholder="Phone Number"
+                                pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" />
 
-                        <button type="submit">Submit</button>
-                    </form>
-                    <ul>
-                        <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnklEQVR4nJ2SMQ6CQBBFX4UxWHkYwik8g5Z0egM4B6ExFh5Kago5gFqAmWRJhs0mu8NPfrHFm5+dP7DWng3aAR3wA05W+AnMzgNwTAUPClx8tyT3Hvy2wDcPbqwL67fCogL4OngCLhhVqXSp7Wwd0KgBk3uLR9dCtMY6UN+s7iB6SPKFZQe+P0AWG1ACrwDcpu5AEq6qykdKaki5fv0B5+E7f6D6S3MAAAAASUVORK5CYII=">8792727001/8792736001</a></li>
-                        <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNXLoQoCQRQF0PMLFosIBoPFZLH5NQabzaRMFItgNFr3YwQ1GQwGg2DwC5SBCaK7rmDaB5fhzbuHyk4NA9zx+CH31I/ODGP0cC2BN/QxwjTikA5zdHAugBd0MUl7eMUxK7RwfIMntLF4+fvAMRs0sE37AU2s33q5OCZDHcP0ZjmdUIRjdlhiX3AP33BZwt+4gvMEfLFrrhzcuUYAAAAASUVORK5CYII=">canarait@gmail.com</a></li>
-                    </ul>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="8" placeholder="Message"></textarea>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                        <ul>
+                            <li><a href=""><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnklEQVR4nJ2SMQ6CQBBFX4UxWHkYwik8g5Z0egM4B6ExFh5Kago5gFqAmWRJhs0mu8NPfrHFm5+dP7DWng3aAR3wA05W+AnMzgNwTAUPClx8tyT3Hvy2wDcPbqwL67fCogL4OngCLhhVqXSp7Wwd0KgBk3uLR9dCtMY6UN+s7iB6SPKFZQe+P0AWG1ACrwDcpu5AEq6qykdKaki5fv0B5+E7f6D6S3MAAAAASUVORK5CYII=">8792727001/8792736001</a>
+                            </li>
+                            <li><a href=""><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNXLoQoCQRQF0PMLFosIBoPFZLH5NQabzaRMFItgNFr3YwQ1GQwGg2DwC5SBCaK7rmDaB5fhzbuHyk4NA9zx+CH31I/ODGP0cC2BN/QxwjTikA5zdHAugBd0MUl7eMUxK7RwfIMntLF4+fvAMRs0sE37AU2s33q5OCZDHcP0ZjmdUIRjdlhiX3AP33BZwt+4gvMEfLFrrhzcuUYAAAAASUVORK5CYII=">canarait@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div></center> 
+        </center>
+        <div class="container">
+          <div class="container-left">
+            <h1>22 YEARS OF EXCELLENCE</h1>
+            <p>Join a diverse Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam aspernatur
+                vel.</p>
+          </div>
+          <div class="container-right">
+            <h2>Top Recruiters</h2>
+            <div class="company">
+                <img src="/images/bg1.jpg" alt="" srcset="">
+                <div class="company-details">
+                    <h3>Package</h3>
+                    <h4>Lorem, ipsum.</h4>
+                </div>
+                
+                </div>
+                <div class="company">
+                    <img src="/images/bg1.jpg" alt="" srcset="">
+                    <div class="company-details">
+                        <h3>Package</h3>
+                        <h4>Lorem, ipsum.</h4>
+                    </div>
+                    </div>
+                    <div class="company">
+                        <img src="/images/bg1.jpg" alt="" srcset="">
+                        <div class="company-details">
+                            <h3>Package</h3>
+                            <h4>Lorem, ipsum.</h4>
+                        </div>
+                        </div>
+                        <div class="company">
+                            <img src="/images/bg1.jpg" alt="" srcset="">
+                            <div class="company-details">
+                                <h3>Package</h3>
+                                <h4>Lorem, ipsum.</h4>
+                            </div>
+                            </div>
+                            <div class="company">
+                                <img src="/images/bg1.jpg" alt="" srcset="">
+                                <div class="company-details">
+                                    <h3>Package</h3>
+                                    <h4>Lorem, ipsum.</h4>
+                                </div>
+                                </div>
+          </div>
+        </div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
