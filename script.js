@@ -1,4 +1,5 @@
 const home = document.getElementById('home');
+const navUl=document.querySelector('.nav-ul')
 function isMobileView() {
     return window.innerWidth <= 900; // Adjust the breakpoint as needed
   }
@@ -56,11 +57,13 @@ document.querySelectorAll('.nav-ul').forEach((element)=> {
 });
   
 document.getElementById('ham').addEventListener('click', function() {
-    document.querySelector('.nav-ul').style.transform = 'translateX(-0%)';
+    // document.querySelector('.nav-ul').style.transform = 'translateY(-0%)';
+    navUl.style.display='block'
 });
 
 document.getElementById('cross').addEventListener('click', function() {
-    document.querySelector('.nav-ul').style.transform = 'translateX(100%)';
+    navUl.style.display='none'
+    // document.querySelector('.nav-ul').style.transform = 'translateY(100%)';
     document.querySelectorAll('.hidden-section').forEach(section => {
         section.style.display='none'
     })
@@ -99,6 +102,12 @@ document.addEventListener('keydown', function (e) {
   if (e.key == 'Escape')
     closeModal();
 });
+
+
+
+
+// 
+
 
 // COUNTERRRRRRRRRRRRRRRR
 
@@ -146,48 +155,12 @@ const workObserver = new IntersectionObserver(
 
 workObserver.observe(workSection);
 
-//slider
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    grabCursor: true,
-    loop: true,
-    autoplay:{
-      delay:1500
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-});
-  
-//courses
-const courseBox = document.querySelector(".course-box");
-const slideBox = document.querySelectorAll(".course-box-box");
-// console.log(slideBox);
-let count = 0;
-slideBox.forEach((slide, i) => {
-  let val = `(slide.style.left = ${i * 101}%)`;
-  console.log(val);
-});
-const goPrev = () => {
-  count--;
-  console.log("yes");
-  slideShow();
-};
-const goNext = () => {
-  count++;
-  console.log("yes");
-  slideShow();
-};
-const slideShow = () => {
-  console.log("yay");
-  slideBox.forEach((slide) => {
-    count = count === slideBox.length ? 0 : count < 0 ? slideBox.length - 1 : count;
-    slide.style.transform = `translateX(-${count * 101}%)`;
-  });
-};
+// COUNTER ANIMATTTTIONNNNNNNNNNNNNNNN ENDDDDDDDD
 
+
+// 
+
+
+
+
+  
